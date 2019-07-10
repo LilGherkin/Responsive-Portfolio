@@ -261,9 +261,10 @@ input[type=submit] {
     }
 
     .Container {
-        width: 100%;
+        width: 90%;
         margin: 0 5% 0 5%;
         clear: both;
+        max-width: 641px;
     }
 
     .Portfolio {
@@ -293,5 +294,17 @@ input[type=submit] {
         position: relative;
         float: none;
         margin: 20px, 0 25px;
+    }
+
+    .Container {
+        justify-content: center;
+        width: 90%;
+        margin: 0 5% 0 5%;
+        clear: both;
+        max-width: 640px;
+    }
+    #MainContainer {
+        width: 100%;
+        margin: 0;
     }
 }
